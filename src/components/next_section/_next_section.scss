@@ -1,0 +1,18 @@
+.mod_next-section {
+	font-size: 70px;
+	position: absolute;
+	left: calc(50% - 35px);
+	color: #8FCB9B;
+	-webkit-animation: downarrow 1.4s infinite alternate ease-in-out;
+	bottom: 70px;
+}
+
+@-webkit-keyframes blinker {
+	from { opacity: 1.0; }
+	to { opacity: 0.5; }
+}
+
+@-webkit-keyframes downarrow {
+	0% { -webkit-transform: translateY(0); opacity: 0.4 }
+	100% { -webkit-transform: translateY(0.2em); opacity: 0.9 }
+}
