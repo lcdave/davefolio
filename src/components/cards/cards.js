@@ -1,6 +1,10 @@
 import React from "react"
 import "./_cards.scss"
 import Card from "../card/card";
+import emaly from "../../images/emaly.jpg";
+import cheese from "../../images/howmuchcheese.jpg";
+import znueni from "../../images/znueni.jpg";
+import poketinfo from "../../images/poketinfo.jpg";
 
 
 const Cards = () => {
@@ -10,10 +14,10 @@ const Cards = () => {
 				<h2>Projects</h2>
 			</div>
 			<div className="cards__inner">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+				<Card image={emaly} />
+				<Card image={cheese} />
+				<Card image={znueni} />
+				<Card image={poketinfo}/>
 			</div>
 		</div>
 	);

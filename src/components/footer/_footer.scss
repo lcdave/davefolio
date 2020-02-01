@@ -1,0 +1,32 @@
+.mod_footer {
+	background: #000000;
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 145px;
+	padding: 50px;
+}
+
+.footer__link {
+	font-size: 40px;
+	cursor: pointer;
+
+	&:hover {
+		color: #8FCB9B;
+	}
+}
+
+.footer__border {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid #FFFFFF;
+	border-bottom: 40px solid #000000;
+	background: #FFFFFF;
+}

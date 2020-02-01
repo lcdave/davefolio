@@ -6,9 +6,8 @@ import NextSection from "../components/next_section/next_section";
 import Section from "../components/section/section";
 import Wall from "../components/wall/wall";
 import Cards from "../components/cards/cards";
-import "./_front.scss"
-
-import emaly from "../images/emaly.jpg"
+import Footer from "../components/footer/footer";
+import "./_front.scss";
 
 const IndexPage = () => {
 	const s1Header = 'About me';
@@ -29,6 +28,7 @@ const IndexPage = () => {
 			<div className="mod_section var_white">
 				<Cards />
 			</div>
+			<Footer />
 		</Layout>
 	);
 };
