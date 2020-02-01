@@ -1,0 +1,17 @@
+.mod_cards {
+
+}
+
+.cards__inner {
+	display: flex;
+	justify-content: space-between;
+	width: 1080px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.cards__header {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}

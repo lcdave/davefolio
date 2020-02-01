@@ -1,0 +1,31 @@
+.mod_text {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.text__container {
+	display: flex;
+	justify-content: space-between;
+	color: #262a35;
+	font-size: 18px;
+	line-height: 1.5;
+	word-break: break-word;
+}
+
+.text__header {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.text__left {
+	margin-right: 40px;
+	flex-basis: 50%;
+}
+
+.text__right {
+	margin-left: 40px;
+	flex-basis: 50%;
+}

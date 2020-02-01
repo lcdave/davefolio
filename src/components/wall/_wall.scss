@@ -1,0 +1,26 @@
+.mod_wall {
+	margin-bottom: 60px;
+}
+
+.wall__header {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.wall__inner {
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.wall__item {
+	flex-basis: 100px;
+	text-align: center;
+	background: #272a35;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
