@@ -3,10 +3,28 @@
 	margin-bottom: 80px;
 }
 
-.card__image {
-	margin-bottom: 15px;
+.card__title {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
 
-	img {
-		width: 100%;
+.card__link {
+	display: block;
+	cursor: pointer;
+	transition: transform 0.2s;
+	margin-bottom: 25px;
+
+	&:hover {
+		transform: scale(1.02);
 	}
+}
+
+.card__image {
+	width: 100%;
+}
+
+.card__text {
+	color: #262a35;
+	line-height: 1.4;
 }

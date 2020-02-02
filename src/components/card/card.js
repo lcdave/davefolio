@@ -5,11 +5,14 @@ import "./_card.scss"
 const Card = (props) => {
 	return (
 		<div className="mod_card">
-			<div className="card__image">
-				<img src={props.image} alt="Emaly" />
+			<a href="javascript:void(0)" className="card__link">
+				<img className="card__image" src={props.image} alt="Emaly" />
+			</a>
+			<div className="card__title">
+				{props.title}
 			</div>
 			<div className="card__text">
-				A simple website for a Band.
+				{props.description}
 			</div>
 		</div>
 	);

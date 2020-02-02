@@ -14,10 +14,10 @@ const Cards = () => {
 				<h2>Projects</h2>
 			</div>
 			<div className="cards__inner">
-				<Card image={emaly} />
-				<Card image={cheese} />
-				<Card image={znueni} />
-				<Card image={poketinfo}/>
+				<Card image={znueni} title="4eyes Znueni" description="This is an internal tool for 4eyes GmbH. You can place food orders and manage your finances for the orders."/>
+				<Card image={poketinfo} title="PokétInfo!" description="This project is brand new and still work in progress. It's a calculation and information tool for Pokémon GO."/>
+				<Card image={cheese} title="How much cheese?" description="In case you want to calculate how much cheese you need for your raclette or fondue party."/>
+				<Card image={emaly} title="Emaly" description="A simple website for a band with TYPO3 CMS. It contains event infos, a picture gallery and things like that."/>
 			</div>
 		</div>
 	);

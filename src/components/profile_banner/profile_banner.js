@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 import profileImg from "../../images/profile.jpg"
 import "./_profile_banner.scss"

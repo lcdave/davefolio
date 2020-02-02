@@ -5,12 +5,12 @@ import "./_text.scss"
 const Text = (props) => {
 	return (
 		<div className="mod_text">
-			<div class="text__header">
+			<div className="text__header">
 				<h2>{props.header}</h2>
 			</div>
-			<div class="text__container">
-				<div class="text__left">{props.textLeft}</div>
-				<div class="text__right">{props.textRight}</div>
+			<div className="text__container">
+				<div className="text__left">{props.textLeft}</div>
+				<div className="text__right">{props.textRight}</div>
 			</div>
 		</div>
 	);

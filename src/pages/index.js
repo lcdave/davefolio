@@ -16,13 +16,13 @@ const IndexPage = () => {
 
 	return (
 		<Layout>
-			<div class="front__wrap">
+			<div className="front__wrap">
 				<Header />
 				<Profile />
 				<NextSection />
 			</div>
 			<Section header={s1Header} textLeft={s1TextLeft} textRight={s1TextRight} />
-			<div class="mod_section">
+			<div className="mod_section">
 				<Wall />
 			</div>
 			<div className="mod_section var_white">
