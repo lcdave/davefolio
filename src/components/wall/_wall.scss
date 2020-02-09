@@ -1,3 +1,5 @@
+@import "./src/sass/base/_constants.scss";
+
 .mod_wall {
 	margin-bottom: 60px;
 }
@@ -10,10 +12,13 @@
 
 .wall__inner {
 	display: flex;
-	width: 700px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin: 0 auto;
+
+	@media screen and (min-width: $break-large) {
+		width: 700px;
+	}
 }
 
 .wall__item {

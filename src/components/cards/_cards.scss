@@ -1,3 +1,6 @@
+@import "./src/sass/base/_constants.scss";
+
+
 .mod_cards {
 
 }
@@ -5,13 +8,17 @@
 .cards__inner {
 	display: flex;
 	justify-content: space-between;
-	width: 1080px;
 	margin: 0 auto;
 	flex-wrap: wrap;
+
+	@media screen and (min-width: $break-large) {
+		width: 980px;
+	}
 }
 
 .cards__header {
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 60px;
 }

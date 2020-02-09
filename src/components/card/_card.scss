@@ -1,6 +1,14 @@
+@import "./src/sass/base/_constants.scss";
+
 .mod_card {
-	flex-basis: 45%;
+	flex-basis: 100%;
 	margin-bottom: 80px;
+
+	@media screen and (min-width: $break-medium) {
+		flex-basis: 45%;
+	}
+
+	@media screen and (min-width: $break-large) {}
 }
 
 .card__title {

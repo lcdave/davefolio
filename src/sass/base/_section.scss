@@ -1,0 +1,17 @@
+.mod_section {
+	background: #8fcb9b;
+	padding: 40px;
+	color: #000000;
+
+	&.var_white {
+		background: #FFFFFF;
+	}
+}
+
+.section__header {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000000;
+}

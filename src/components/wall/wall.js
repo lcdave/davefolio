@@ -1,13 +1,17 @@
 import React from "react"
 import "./_wall.scss"
 
+import Zoom from "react-reveal/Zoom";
+
 
 const Wall = () => {
 	return (
 		<div className="mod_wall">
+			<Zoom>
 			<div className="wall__header">
 				<h2>My skills</h2>
 			</div>
+			</Zoom>
 			<div className="wall__inner">
 				<div className="wall__item">
 					<div className="item__text">

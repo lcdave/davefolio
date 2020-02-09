@@ -1,14 +1,28 @@
+@import "./src/sass/base/_constants.scss";
+
 .mod_profile {
 	display: flex;
-	width: 500px;
 	margin: 0 auto;
+	padding: 0 40px;
+
+	@media screen and (min-width: $break-large) {
+		width: 500px;
+	}
 }
 
 .profile__inner {
 	width: 100%;
-	min-height: calc(100vh - 300px);
+	min-height: calc(100vh - 150px);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
+	@media screen and (min-width: $break-medium) {
+		min-height: calc(100vh - 230px);
+	}
+
+	@media screen and (min-width: $break-large) {
+		min-height: calc(100vh - 300px);
+	}
 }

@@ -1,16 +1,22 @@
+@import "./src/sass/base/_constants.scss";
+
 .mod_text {
-	width: 1080px;
-	margin: 0 auto;
-	margin-top: 60px;
+	@media screen and (min-width: $break-large) {
+		width: 980px;
+		margin: 60px auto 0 auto;
+	}
 }
 
 .text__container {
-	display: flex;
-	justify-content: space-between;
 	color: #262a35;
 	font-size: 18px;
 	line-height: 1.5;
 	word-break: break-word;
+
+	@media screen and (min-width: $break-large) {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .text__header {
@@ -21,11 +27,20 @@
 }
 
 .text__left {
-	margin-right: 40px;
-	flex-basis: 50%;
+	margin-bottom: 30px;
+
+	@media screen and (min-width: $break-large) {
+		margin-bottom: 0;
+		margin-right: 40px;
+		flex-basis: 50%;
+	}
 }
 
 .text__right {
-	margin-left: 40px;
-	flex-basis: 50%;
+	@media screen and (min-width: $break-large) {
+		margin-left: 40px;
+		flex-basis: 50%;
+	}
 }
+
+
